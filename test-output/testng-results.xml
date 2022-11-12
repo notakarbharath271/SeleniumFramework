@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T07:45:19 IST" name="Suite" finished-at="2022-11-04T07:45:34 IST" duration-ms="14950">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T07:45:19 IST" name="Test" finished-at="2022-11-04T07:45:34 IST" duration-ms="14950">
+      <class name="com.nbk.tests.AmazonTest">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.nbk.tests.AmazonTest@436813f3]" started-at="2022-11-04T07:45:20 IST" name="setUp" finished-at="2022-11-04T07:45:28 IST" duration-ms="7938" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1603dc2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amazonTest(java.util.Map)[pri:0, instance:com.nbk.tests.AmazonTest@436813f3]" started-at="2022-11-04T07:45:28 IST" name="amazonTest" description="To check wheather the amazon is working or not" data-provider="getData" finished-at="2022-11-04T07:45:32 IST" duration-ms="3667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=amazonTest, UserName=, Execute=yes, Fname=, menutext=Laptops, Browser=firefox, Password=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nbk.tests.AmazonTest@436813f3]" started-at="2022-11-04T07:45:32 IST" name="tearDown" finished-at="2022-11-04T07:45:34 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nbk.tests.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
